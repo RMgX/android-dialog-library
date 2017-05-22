@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    BASE Style for text    -->
+
+    <style name="Text">
+        <item name="android:text">@string/empty_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!--    Style for microinteraction title    -->
+
+    <style name="Text.Title" >
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Style for microinteraction description    -->
+
+    <style name="Text.Description">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/descriptionColor</item>
+    </style>
+
+    <!--    BASE Style for button    -->
+
+    <style name="Button">
+        <item name="android:text">@string/empty_text</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <!--    Style for microinteraction title    -->
+
+    <style name="Button.Positive">
+        <item name="android:textColor">@color/buttonPositiveTextColor</item>
+    </style>
+
+    <!--    Style for microinteraction description    -->
+
+    <style name="Button.Negative">
+        <item name="android:textColor">@color/buttonNegativeTextColor</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <!--    Style for microinteraction animations    -->
+
+    <style name="AnimDown">
+        <item name="android:windowEnterAnimation">@anim/from_down</item>
+        <item name="android:windowExitAnimation">@anim/to_down</item>
+    </style>
+
+    <style name="AnimFadeInOut">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AnimZoomInOut">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
+    </style>
+
+</resources>

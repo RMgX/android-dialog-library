@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dialog Manager</string>
+    <string name="empty_text">Empty Text</string>
+</resources>
