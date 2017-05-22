@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Dialog Library</string>
+    <string name="app_name">Dialog Library Sample</string>
+    <string name="show_dialog">SHOW DIALOG</string>
+    <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue nunc id auctor feugiat. Maecenas scelerisque nisi quam, at sagittis lectus pharetra id. Etiam ultrices suscipit dictum.</string>
+    <string name="title">AWESOME DIALOG</string>
 </resources>

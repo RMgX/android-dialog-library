@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llMicroHeader"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivMicroImage"
+            android:layout_width="280dp"
+            android:layout_height="120dp"
+            android:background="@color/microBackgroundImageColor" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:background="@color/microBackgroundViewColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMicroTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.Title" />
+
+        <TextView
+            android:id="@+id/tvMicroDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMicroTitle"
+            style="@style/Text.Description" />
+
+        <Button
+            android:id="@+id/buttonMicroPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvMicroDescription"
+            style="@style/Button.Positive"
+            android:background="@drawable/button_positive_background" />
+
+
+        <Button
+            android:id="@+id/buttonMicroNegative"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/buttonMicroPositive"
+            style="@style/Button.Negative" />
+    </RelativeLayout>
+
+</LinearLayout>

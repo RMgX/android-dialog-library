@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="microBackgroundImageColor">#963579ef</color>
+    <color name="microBackgroundViewColor">#EEEEEE</color>
+    <color name="headerTextColor">#ffffff</color>
+    <color name="titleColor">#808080</color>
+    <color name="descriptionColor">#808080</color>
+    <color name="buttonPositiveTextColor">#ffffff</color>
+    <color name="buttonPositiveColor">#d7002c</color>
+    <color name="buttonNegativeTextColor">#3579ef</color>
+
+
+</resources>
