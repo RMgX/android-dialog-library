@@ -4,9 +4,8 @@
 # android-dialog-library
 Android library for creating custom dialogs
 
-![screenshot_1497357714](https://user-images.githubusercontent.com/9627223/27082848-ffe869e8-5063-11e7-8afc-151b84b0de46.png)
-![screenshot_1497357717](https://user-images.githubusercontent.com/9627223/27082857-04bfc02e-5064-11e7-967e-5b88d8ca8811.png)
-
+![one](https://user-images.githubusercontent.com/9627223/27083363-eefb4036-5065-11e7-96cd-1e2633dc080b.png)
+![two](https://user-images.githubusercontent.com/9627223/27083375-f59fcc40-5065-11e7-901d-eee622d28f27.png)
 
 ## Setup Gradle
 
