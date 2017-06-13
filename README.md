@@ -1,8 +1,11 @@
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
-[![API](https://img.shields.io/badge/API-8%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
+[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
 # android-dialog-library
 Android library for creating custom dialogs
+
+![one](https://user-images.githubusercontent.com/9627223/27083363-eefb4036-5065-11e7-96cd-1e2633dc080b.png)
+![two](https://user-images.githubusercontent.com/9627223/27083375-f59fcc40-5065-11e7-901d-eee622d28f27.png)
 
 ## Setup Gradle
 
